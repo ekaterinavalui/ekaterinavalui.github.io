@@ -1,0 +1,156 @@
+html{
+    background-color: pink;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  nav {
+   width: 100%;
+   height: 100px;
+   display: flex;
+   flex-wrap: nowrap;
+  }
+  nav a {
+    flex: 1;
+    border:2px solid white;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    margin: 0 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  html,
+  .page-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  .page-content,
+  .side-image {
+    width: 50%;
+    height: 100%;
+  }
+  .page-content {
+    padding: 16px;
+  }
+
+  .side-image {
+    background-image: url("side-image.png");
+    background-color:white;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .side-image-mtn {
+    background-image: url("more-than-nature.png");
+}
+.side-image-pt {
+    background-image: url("parsley-teaa.png");
+}
+.side-image-about {
+    background-image: url("grandad.jpg");
+}
+  .page-name-header {
+    position: fixed;
+    display: flex;
+    width: 50%;
+    top: 170px;
+    font-size: 400%;
+    color: white;
+    align-items: center;
+    left: 0;
+    text-align: center;
+    font-weight: bold;
+    min-width: 50%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .page-name {
+    position: fixed;
+    top: 50%;
+    height: 200px;
+    width: 25%;
+    margin-top: -100px;
+    background-color: white;
+    color: rgb(62, 155, 62);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+   padding-left: 50px;
+  }
+  .page-name-p {
+    position: fixed;
+    top: 50%;
+    height: 380px;
+    width: 25%;
+    margin-top: -150px;
+    background-color: white;
+    color: rgb(62, 155, 62);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    left: 9%;
+  }
+  
+  .page-name-p p {
+    align-self: flex-start;
+}
+.page-name-about {
+    background-color:transparent;
+    font-size: 17px;
+    width: 50%;
+    left: 0;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    margin-top: -100px;
+    padding: 0;
+}
+.page-name-about p {
+    padding: 50px;
+}
+  .page-name-border {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: inherit;
+    width: 60px;
+    background-color: pink;
+    border-right: 30px solid white;
+    box-sizing: border-box;
+    }
+  footer {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  footer div {
+    display: inline-flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    color: rgb(41, 126, 41);  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
